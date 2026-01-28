@@ -6,6 +6,7 @@
 
 这是一款专为 **AList** 打造的轻量化图形管理面板。本项目基于 Python 3.8.10 开发，特别针对 **Windows 7** 系统环境进行了深度兼容性优化，旨在提供一站式的 AList 内核管理、进程守护与账户配置体验。
 <img width="802" height="684" alt="image" src="https://github.com/user-attachments/assets/e0fb8603-8f2b-4554-b374-62ff43400bbe" />
+<img width="1318" height="983" alt="image" src="https://github.com/user-attachments/assets/929360a0-19c7-495e-b28d-5cdb8506c23a" />
 
 ---
 
