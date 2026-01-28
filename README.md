@@ -65,8 +65,8 @@ go build -o alist64.exe -tags="jsoniter,builtalists" -ldflags="-s -w" main.go
 建议使用 UPX 对编译出的内核进行深度压缩以减少体积：
 
 Bash
-upx --best alist32.exe
-upx --best alist64.exe
+upx --best --lzma alist32.exe
+upx --best --lzma alist64.exe
 
 2. 生成管理面板 EXE在 Python 3.8.10 环境下，使用 PyInstaller 将 al.py
 打包为单文件：pyinstaller -F -w -i "logo.ico" --clean al.py
