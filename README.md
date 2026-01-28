@@ -68,5 +68,12 @@ Bash
 upx --best alist32.exe
 upx --best alist64.exe
 
-2. 生成管理面板 EXE在 Python 3.8.10 环境下，使用 PyInstaller 将 al.py 打包为单文件：Bashpyinstaller -F -w -i "logo.ico" --clean al.py
-参数含义说明-F生成单文件将所有依赖库压缩入一个独立的 .exe-w窗口模式运行时隐藏黑色命令行窗口-i图标后面接图标路径，例如 logo.ico--clean清理缓存每次打包前清除旧的临时文件
+2. 生成管理面板 EXE在 Python 3.8.10 环境下，使用 PyInstaller 将 al.py
+打包为单文件：pyinstaller -F -w -i "logo.ico" --clean al.py
+
+参数含义说明
+-F生成单文件将所有依赖库压缩入一个独立的 .exe
+-w窗口模式运行时隐藏黑色命令行窗口
+-i图标后面接图标路径，例如 logo.ico
+--clean清理缓存每次打包前清除旧的临时文件
+
