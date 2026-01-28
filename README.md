@@ -77,3 +77,12 @@ upx --best alist64.exe
 -i图标后面接图标路径，例如 logo.ico
 --clean清理缓存每次打包前清除旧的临时文件
 
+⚠️ 部署注意事项
+运行依赖：打包后的 al.exe 必须与 alist32.exe 或 alist64.exe 放置在同一目录下。
+
+系统补丁：若运行报错提示缺失 api-ms-win-crt-runtime，请安装微软 KB2999226 补丁。
+
+安全提示：由于涉及进程清理操作，部分杀毒软件可能误报，请添加白名单。
+
+📄 开源协议
+本项目基于 MIT License 协议开源。
